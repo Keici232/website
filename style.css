@@ -1,0 +1,155 @@
+.navbarr {
+  margin: 50px;
+  border: solid 6px lightgray;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+html {
+  color: #ffffff;
+  background-color: #fff;
+  font-family: "lato", "Arial", sans-serif;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+  font-weight: 300;
+}
+
+.row {
+  margin: 0 auto 0 auto;
+  max-width: 1140px;
+}
+
+/*--------Headings----------*/
+
+h1,
+h2,
+h3 {
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 180%;
+  word-spacing: 2px;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+h3 {
+  font-size: 110%;
+  padding: 6px;
+  padding: 3%;
+  margin: 3%;
+}
+
+/*-------- paraghraph------*/
+
+p {
+  font-size: 70%;
+  line-height: 145%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.p{
+  padding: 4%;
+}
+
+.footer-title {
+  font-size: 110%;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+section {
+  display: grid
+  margin-bottom: 100px;
+}
+
+.section-home {
+  display: grid;
+  /*flex-direction: row;*/
+
+  justify-content: space-between;
+}
+
+.section-home1 {
+  background-color: rgba(199, 185, 185, 0.6);
+  text-align: center;
+}
+
+
+div.gallery img{
+  width: 60%;
+  height: auto;
+}
+
+.email2{
+  margin-left: 40px;
+}
+
+.gallery{
+  display: inline-flexbox;
+  margin: 5px;
+  padding: 7px;
+
+}
+
+
+.form{
+  padding: 3%;
+  margin-left: 3%;
+}
+
+/* .grid-item{
+  display: grid;
+  justify-content: center;
+  padding: 2%;
+} */
+
+.left-side {
+  display: flex;
+  text-align: center;
+  margin-right: 20px;
+  width: 100%;
+  margin-top: 4%;
+  margin-bottom: 3%;
+  padding-left: 8%;
+}
+
+.hela {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(images/img5.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+/*-------- Foooter------*/
+
+footer {
+  width: 100%;
+  text-align: center;
+  height: 100px;
+  background-color: lightgray;
+}
+
+@media only screen and (max-width: 780px) {
+  .section-home {
+    flex-direction: column;
+
+    width: 100%;
+  }
+  .left-side {
+    flex-direction: column;
+  }
+}
+
